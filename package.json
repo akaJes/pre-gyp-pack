@@ -1,0 +1,35 @@
+{
+  "name": "pre-gyp-pack",
+  "version": "1.0.1",
+  "description": "automate packing for various versions node or electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akaJes",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akaJes/pre-gyp-pack.git"
+  },
+  "bin": {
+    "pre-gyp-pack": "./bin/pre-gyp-pack"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cpy": "^5.0.0",
+    "request": "^2.81.0"
+  },
+  "bugs": {
+    "url": "https://github.com/akaJes/pre-gyp-pack/issues"
+  },
+  "homepage": "https://github.com/akaJes/pre-gyp-pack#readme",
+  "devDependencies": {},
+  "keywords": [
+    "node-pre-gyp",
+    "pre-gyp",
+    "github",
+    "electron",
+    "node"
+  ]
+}
